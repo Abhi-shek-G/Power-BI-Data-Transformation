@@ -1,0 +1,17 @@
+The HR Analytics CSV file was then loaded into Power BI Desktop and opened in Power Query Editor for data cleaning.
+
+Irrelevant columns like EmployeeCount, Over18, and StandardHours were deleted since they all contained the same value for all employees and were of no use for analysis.
+
+Column headers were renamed to be more readable, for instance, MonthlyIncome was renamed to Monthly Income.
+
+Missing data in text columns such as Department and Job Role was replaced with “Unknown”, and any rows that had missing crucial numeric data were deleted.
+
+Data types were adjusted by changing numeric columns such as Age and Monthly Income to Whole Number and text columns to Text.
+
+A new column called Age Group was added to categorize employees according to their age groups for easy analysis.
+
+Another new column called Salary Band was added by grouping employees according to their Monthly Income into Low, Medium, and High categories.
+
+No splitting of columns was necessary since all columns already had the correct data.
+
+Once all transformations were done, the cleaned data was then loaded and used to create data visualizations such as attrition analysis and department analysis.
